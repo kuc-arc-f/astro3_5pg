@@ -1,0 +1,8 @@
+name = "name1"
+#main = "src/index.ts"
+compatibility_date = "2023-09-13"
+node_compat = true
+
+#[vars]
+#API_KEY = ""
+
