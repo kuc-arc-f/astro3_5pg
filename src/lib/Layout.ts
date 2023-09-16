@@ -27,7 +27,7 @@ console.log("key=", key);
             const auth = LibCookie.get_cookie(key);
             if(typeof auth === "undefined" || auth === null)
             {
-//                location.href = '/login';
+                location.href = '/login';
             }
             console.log(key, auth);
         }
