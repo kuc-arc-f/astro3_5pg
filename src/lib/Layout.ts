@@ -16,6 +16,7 @@ const Layout = {
         const parsedUrl = new URL(window.location.href);
         if(
             !(parsedUrl.pathname === '/login' ||
+            parsedUrl.pathname === '/clock' ||
             parsedUrl.pathname === '/basic_login' ||
             parsedUrl.pathname === '/user/create'
             )
